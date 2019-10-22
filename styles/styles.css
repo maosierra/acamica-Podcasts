@@ -27,9 +27,9 @@
 
 .menu-options {
     display: none;
-    margin-top: 44px;
     justify-self: flex-start;
     position: absolute;
+    top: 44px;
     width: 100%;
 }
 
