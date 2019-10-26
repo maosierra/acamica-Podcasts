@@ -50,6 +50,15 @@
     text-decoration: none;
 }
 
-#chk-nav-bar:checked + .menu-options {
+.burger-close {
+    display: none;
+    padding: 10px 19px;
+}
+
+#chk-nav-bar:checked~#burger-open {
+    display: none;
+}
+
+#chk-nav-bar:checked~.menu-options, #chk-nav-bar:checked~#burger-close {
     display: block;
 }
